@@ -1,8 +1,4 @@
-# Choose between preset and custom
-    mode = st.sidebar.radio(
-        "Choose simulation mode:",
-        ["Use preset Norwegian parties", "Custom parties"]
-    )
+
     
     total_seats = st.sidebar.slider("Total seats in district:", min_value=3, max_value=25, value=10)import streamlit as st
 import matplotlib.pyplot as plt
